@@ -1,10 +1,6 @@
 run = "cowsay Configure me!"
 entrypoint = "README.md"
-modules = ["nodejs-20"]
 
 [nix]
-channel = "stable-24_11"
-packages = ["cowsay", "unzip"]
-
-[agent]
-expertMode = true
+channel = "stable-24_05"
+packages = ["cowsay"]
